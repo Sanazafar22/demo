@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  /* line-height: 22px; */
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+.container {
+  max-width: 1100px;
+  /* border: 1px solid red; */
+}
+.topBar {
+  background-color: #D82828;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.locationIcon,
+.messageIcon,
+.callIcon {
+  color: #fff;
+  font-size: 20px;
+}
+.address {
+  color: #fff;
+  font-size: 12px;
+  margin: 0 0 0 10px;
+}
+.address:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.socialIcon {
+  background-color: #fff;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.socialIcon i {
+  color: #D82828;
+  font-size: 18px;
+}
+.socialIcon:hover {
+  color: #D82828;
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.logo {
+  height: auto;
+  width: 200px;
+  
+}
+.navBar {
+  background-color: #000;
+  padding: 10px 0;
+}
+.logoName {
+  color: #D82828;
+  font-size: 30px;
+}
+.logoName:hover {
+  text-decoration: none;
+  color: #D82828;
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #D82828;
+  text-decoration: none;
+}
+.active {
+  color: #D82828;
+}
+.splash {
+  background-image: url(./assets/splash.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative;
+  /* padding: 120px 0 0 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.splash::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.splash .container {
+  position: absolute;
+  z-index: 999
+}
+.horizontalborder {
+  border: 1px solid red;
+  display: block;
+  width: 80px;
+  margin-right: 10px;
+}
+.splashSubtitle {
+  color: #D82828;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.splashTitle {
+  color: #D82828;
+  font-weight: 600;
+  font-size: 70px;
+}
+.splashDetail {
+  color: #fff;
+  width: 300px;
+}
+.baseBtn {
+  background-color: #D82828;
+  border: 1px solid #D82828;
+  height: 40px;
+  width: 110px;
+  color: #fff;
+}
+.playButtonContainer {
+  height: 70px;
+  width: 70px;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 100px;
+}
+.playBtnIcon {
+  color: #D82828;
+  font-size: 45px;
+}
+.servicesContainer {
+  background-color: #000;
+  padding: 80px 0;
+}

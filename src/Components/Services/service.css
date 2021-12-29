@@ -1,0 +1,28 @@
+.services {
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #D82828;
+    color: #fff;
+    position: relative;
+    transition: .5s all ease-in-out;
+}
+.seviceIcon {
+    font-size: 60px;
+    color: #D82828;
+    margin-bottom: 15px;
+}
+.title {
+    font-size: 20px;
+}
+.subInfo {
+    font-size: 13px;
+}
+.services:hover {
+    background-color: #D82828;
+    background-image: linear-gradient(#000 10%,#D82828);
+    cursor: pointer;
+    margin-top: 50px;
+}
+.sana{
+    margin-top: 50px;
+}
