@@ -1,5 +1,5 @@
 .services {
-    height: 300px;
+    height: 350px;
     padding: 20px;
     border: 1px solid #D82828;
     color: #fff;
@@ -13,16 +13,23 @@
 }
 .title {
     font-size: 20px;
+    margin-bottom: 12px;
 }
 .subInfo {
     font-size: 13px;
 }
 .services:hover {
     background-color: #D82828;
-    background-image: linear-gradient(#000 10%,#D82828);
+    background-image: linear-gradient(#212121 10%,#D82828);
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: 30px;
 }
-.sana{
-    margin-top: 50px;
+.services:hover .title {
+    color: #D82828;
+}
+.down{
+    margin-top: 80px;
+}
+.down:hover {
+    margin-top: 100px;
 }

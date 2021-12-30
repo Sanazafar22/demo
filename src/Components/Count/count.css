@@ -1,0 +1,28 @@
+.counts {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #212121;
+    padding: 20px 0;
+}
+.counterIconContainer {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    background-color: #D82828;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-self: center;
+    margin-top: -60px;
+}
+.countTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+.conuterValue {
+    margin-top: 15px;
+    font-weight: 600;
+}
+.counterIcon {
+    font-size: 35px;
+}

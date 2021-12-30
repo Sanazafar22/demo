@@ -159,6 +159,55 @@ ul {
   font-size: 45px;
 }
 .servicesContainer {
-  background-color: #000;
+  background-color: #212121;
   padding: 80px 0;
+}
+.about, 
+.testimonialContainer {
+  background-color: #212121;
+  padding: 80px 0;
+  background-image: url('./assets/bg-lines.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.aboutImg {
+  width: 520px;
+  margin-top: 120px;
+}
+.aboutTitle {
+  color: #fff;
+}
+.aboutHeading {
+  font-size: 20px;
+  font-weight: 600;
+}
+.countContainer {
+  padding: 130px 0 100px 0;
+  background-image: url('./assets/bg-count.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+/* Testimonials */
+.testimonialImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+.testimonial {
+  margin-top: 30px;
+  background: linear-gradient(90deg, #D82828 0%, #212121 100%);
+  padding: 20px 15px 20px 15px;
+  height: 280px;
+}
+.clientName {
+  font-size: 20px;
+}
+.clientDetail {
+  text-transform: uppercase;
 }
